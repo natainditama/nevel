@@ -66,7 +66,7 @@ const seoDefaults = {
   titleTemplate:
     "Get Started Template built with Next JS and Tailwind CSS - %s",
   description:
-    "Get Started Template built with Next JS and Tailwind CSS. It's a great starting point for your next Next.js project.",
+    "Get Started Template built with Next JS and Tailwind CSS. It's a great starting point for your next Next.js project. Feel free to use it for your next Next.js project. It's open source and available on GitHub. Feel free to contribute to it",
   canonical: process.env.NEXTJS_BASE_URL,
   robotsProps: {
     index: true,
@@ -78,7 +78,7 @@ const seoDefaults = {
     type: "website",
     locale: "en_US",
     url: process.env.NEXTJS_BASE_URL,
-    title: "Best Next.js Starter Template",
+    title: "Home",
     description:
       "Get Started Template built with Next JS and Tailwind CSS. It's a great starting point for your next Next.js project. Feel free to use it for your next Next.js project. It's open source and available on GitHub. Feel free to contribute to it.",
     images: [
