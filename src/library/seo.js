@@ -62,17 +62,12 @@ const linkTags = [
 ];
 
 const seoDefaults = {
-  title: "Home",
-  titleTemplate:
-    "Get Started Template built with Next JS and Tailwind CSS - %s",
+  defaultTitle: "Get Started Template with Next JS and Tailwind CSS",
   description:
     "Get Started Template built with Next JS and Tailwind CSS. It's a great starting point for your next Next.js project. Feel free to use it for your next Next.js project. It's open source and available on GitHub. Feel free to contribute to it",
-  canonical: process.env.NEXTJS_BASE_URL,
   robotsProps: {
     index: true,
-    noindex: false,
     follow: true,
-    nofollow: false,
   },
   openGraph: {
     type: "website",

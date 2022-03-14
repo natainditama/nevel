@@ -1,12 +1,12 @@
 import "@styles/globals.css";
-import { DefaultSeo } from "next-seo";
-import SEO from "@library/seo";
+import Template from "@components/layouts/Template";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <DefaultSeo {...SEO} />
-      <Component {...pageProps} />
+      <Template>
+        <Component {...pageProps} />
+      </Template>
     </>
   );
 }

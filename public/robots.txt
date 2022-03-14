@@ -1,7 +1,4 @@
-sitemap: http://localhost:3000/sitemap.xml
-
 user-agent: *
-disallow: /api/
-
-user-agent: SiteCheckerBotCrawler
 allow: /
+disallow: /api/
+sitemap: https://www.natainditama.my.id/nextjs-quickstart/sitemap.xml

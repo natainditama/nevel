@@ -1,8 +1,6 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const colors = require("tailwindcss/colors");
 
 module.exports = {
-  darkMode: "media",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
@@ -10,6 +8,9 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Lexend", ...defaultTheme.fontFamily.sans],
+    },
+    h1: {
+      fontWeight: "bold",
     },
     extend: {},
   },
