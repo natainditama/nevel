@@ -1,0 +1,7 @@
+[build]:
+    publish= "build"
+    command = "npm run prod"
+
+[build.enviroment]
+    NODE_ENV=production
+    NETLIFY_NEXT_PLUGIN_SKIP = "true"

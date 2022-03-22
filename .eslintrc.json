@@ -6,5 +6,16 @@
     "no-debugger": "warn",
     "no-unused-expressions": "warn",
     "no-undef": "warn"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "build/",
+    "public/",
+    "static/",
+    "next.config.js"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
   }
 }

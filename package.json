@@ -1,18 +1,40 @@
 {
   "name": "nextjs-quickstart",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Get started template for next.js with NextQ",
+  "main": "N/A",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natainditama/nextjs-quickstart.git"
+  },
+  "author": {
+    "name": "Nata Inditama",
+    "email": "natainditama.dev@gmail.com",
+    "url": "https://natainditama.my.id/",
+    "username": "natainditama",
+    "bio": "Fullstack Developer",
+    "location": "Bali, Indonesia"
+  },
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "export": "next build & next export -o build",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start",
+    "build": "next build",
+    "prepare": "husky install",
+    "test:watch": "jest --watch",
+    "lint:fix": "next lint --fix",
+    "test:cov": "jest --coverage",
+    "clean": "rimraf build .next",
+    "export": "next export -o build",
+    "lint:watch": "run-s lint --watch",
+    "prod": "run-s clean build export",
+    "analyze": "cross-env ANALYZE=true next build",
+    "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\" \"test/**/*.{js,ts,jsx,tsx}\""
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^12.1.0",
     "clsx": "^1.1.1",
     "cross-env": "^7.0.3",
     "next": "12.1.0",
@@ -22,13 +44,21 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "autoprefixer": "^10.4.2",
+    "cssnano": "^5.1.5",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
+    "husky": "^7.0.4",
     "jest": "^27.5.1",
+    "lint-staged": "^12.3.7",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.8",
+    "prettier": "^2.6.0",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "rimraf": "^3.0.2",
     "tailwindcss": "^3.0.23"
   }
 }
