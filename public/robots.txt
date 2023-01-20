@@ -1,4 +1,0 @@
-user-agent: *
-allow: /
-disallow: /api/
-sitemap: https://www.natainditama.my.id/nextjs-quickstart/sitemap.xml
