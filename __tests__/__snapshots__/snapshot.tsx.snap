@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <div
+      class="description"
+    >
+      <p>
+        Get started by editing 
+        <code
+          class="code"
+        >
+          pages/index.tsx
+        </code>
+      </p>
+      <div>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          By
+           
+          <img
+            alt="Vercel Logo"
+            class="vercelLogo"
+            data-nimg="1"
+            decoding="async"
+            height="24"
+            src="/vercel.svg"
+            style="color: transparent;"
+            width="100"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="center"
+    >
+      <img
+        alt="Next.js Logo"
+        class="logo"
+        data-nimg="1"
+        decoding="async"
+        height="37"
+        src="/next.svg"
+        style="color: transparent;"
+        width="180"
+      />
+      <div
+        class="thirteen"
+      >
+        <img
+          alt="13"
+          data-nimg="1"
+          decoding="async"
+          height="31"
+          src="/thirteen.svg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+    </div>
+    <div
+      class="grid"
+    >
+      <a
+        class="card"
+        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <h2
+          class="className"
+        >
+          Docs 
+          <span>
+            -&gt;
+          </span>
+        </h2>
+        <p
+          class="className"
+        >
+          Find in-depth information about Next.js features and API.
+        </p>
+      </a>
+      <a
+        class="card"
+        href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <h2
+          class="className"
+        >
+          Learn 
+          <span>
+            -&gt;
+          </span>
+        </h2>
+        <p
+          class="className"
+        >
+          Learn about Next.js in an interactive course with quizzes!
+        </p>
+      </a>
+      <a
+        class="card"
+        href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <h2
+          class="className"
+        >
+          Templates 
+          <span>
+            -&gt;
+          </span>
+        </h2>
+        <p
+          class="className"
+        >
+          Discover and deploy boilerplate example Next.js projects.
+        </p>
+      </a>
+      <a
+        class="card"
+        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <h2
+          class="className"
+        >
+          Deploy 
+          <span>
+            -&gt;
+          </span>
+        </h2>
+        <p
+          class="className"
+        >
+          Instantly deploy your Next.js site to a shareable URL with Vercel.
+        </p>
+      </a>
+    </div>
+  </main>
+</div>
+`;
