@@ -317,6 +317,11 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@corex/deepmerge@^4.0.29":
+  version "4.0.37"
+  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-4.0.37.tgz#873dcf71aee46596d7e385437b0d94770ef4c85f"
+  integrity sha512-PX90bEnrLdxd5e6rSFWsghExMuSw0Uov3fWJuuaoFuUQIS/446diu/4seExK5b+43L+SOBbd2uBGwYUkG1JfCw==
+
 "@eslint/eslintrc@^1.4.1":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.4.1.tgz#af58772019a2d271b7e2d4c23ff4ddcba3ccfb3e"
@@ -3487,7 +3492,7 @@ minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.0, minimist@^1.2.6:
+minimist@^1.2.0, minimist@^1.2.6, minimist@^1.2.7:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
@@ -3511,6 +3516,14 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
+
+next-sitemap@^3.1.49:
+  version "3.1.49"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-3.1.49.tgz#ed661fc800ead8a32728783c710ca28ef1a2d76d"
+  integrity sha512-bxBq+MQdi580PKn/8ert4X0RL8Kp9scvyiq6TmIpkCQC3bd4DResTyxHY2AuCGKz83ut2udHwKMZu3ztj3aq3w==
+  dependencies:
+    "@corex/deepmerge" "^4.0.29"
+    minimist "^1.2.7"
 
 next@13.1.3:
   version "13.1.3"
