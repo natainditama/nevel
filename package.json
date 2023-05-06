@@ -2,16 +2,30 @@
   "name": "nevel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nevel.pages.dev/",
+  "license": "MIT",
+  "description": "React Next Level - Minimalist boilerplate for Next with Tailwind CSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natainditama/nevel"
+  },
+  "bugs": {
+    "url": "https://github.com/natainditama/nevel/issues",
+    "email": "natainditama.dev@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
     "postbuild": "next-sitemap",
     "analyze": "cross-env ANALYZE=true next build",
     "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
-    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build",
+    "format": "prettier --write \"src/**/*.ts\" \"__tests__/**/*.ts\""
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
@@ -45,5 +59,15 @@
     "prettier-plugin-tailwindcss": "^0.2.2",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.4"
-  }
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "not IE 11"
+  ]
 }
