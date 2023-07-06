@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "zignd.html-css-class-completion",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "bradlc.vscode-tailwindcss",
+    "bmewburn.vscode-intelephense-client",
+    "hakcorp.php-awesome-snippets",
+    "wix.vscode-import-cost",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}
