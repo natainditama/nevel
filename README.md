@@ -100,7 +100,7 @@ This project requires the following configuration:
 Prerequisites for this project:
 
 - [Nodejs](https://nodejs.org)
-- [Pnpm](https://pnpm.io)
+- [Yarn](https://yarnpkg.com/)
 
 <!-- Run Locally -->
 ### 🏃 Run Locally
