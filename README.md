@@ -1,27 +1,8 @@
-<!--
-Hey, thanks for using the awesome-readme-template template.
-If you have any enhancements, then fork this project and create a pull request
-or just open an issue with the label "enhancement".
-
-Don't forget to give this project a star for additional support ;)
-Maybe you can mention me or this repo in the acknowledgements too
--->
-
-<!--
-This README is a slimmed down version of the original one.
-Removed sections:
-- Screenshots
-- Running Test
-- Deployment
-- FAQ
--->
-
 <div align="center">
 
-  <h1>Nevel</h1>
-  
+  <h1>Template</h1>  
   <p>
-    Minimalist boilerplate for Next with Tailwind CSS
+    Flexible github repository template for projects! 
   </p>
 
 <!-- Badges -->
@@ -57,121 +38,72 @@ Removed sections:
   </h4>
 </div>
 
-<br />
-
-<!-- About the Project -->
-
-## :star2: About the Project
+<br />  
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://placehold.co/1280x720?text=Your+Screenshot+here" alt="screenshot" />
 </div>
 
+<br />  
+
+<!-- About the Project -->
+## 📝 About the Project
+
 <!-- TechStack -->
+### 💻 Tech Stack
 
-### :space_invader: Tech Stack
+This project utilizes the following technologies and tools:
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-    <li><a href="https://neo4j.com/">Neo4j</a></li>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>DevOps</summary>
-  <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
-  </ul>
-</details>
+- Programming Languages: Typescript
+- Frameworks: Next.js
+- Libraries: TailwindCSS
+- Databases: -
+- Deployment: Vercel
+- Testing: -
+- Version Control: Git, Github
 
 <!-- Features -->
+### 🌟 Features
 
-### :dart: Features
+This project includes the following features:
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Linter with [ESLint](https://eslint.org)
+- Code Formatter with [Prettier](https://prettier.io/)
+- Integrate with [TailwindCSS](https://tailwindcss.com/)
+- [Next.js](https://nextjs.org) for Static Site Generator
+- Type checking [TypeScript](https://www.typescriptlang.org/)
+- Sitemap.xml and robots.txt with [next-sitemap](https://www.npmjs.com/package/next-sitemap)
 
 <!-- Color Reference -->
+### 🎨 Color Reference
 
-### :art: Color Reference
-
-| Color           | Hex                                                              |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color   | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
 | Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color    | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color      | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+| Background Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
 <!-- Env Variables -->
+### 🔑 Environment Variables
 
-### :key: Environment Variables
+This project requires the following configuration:
 
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
+- `NEXT_PUBLIC_SITE_URL` : The public URL of the project's
 
 <!-- Getting Started -->
-
-## :toolbox: Getting Started
+## 🚀 Getting Started
 
 <!-- Prerequisites -->
+### 🔧 Prerequisites
 
-### :bangbang: Prerequisites
+Prerequisites for this project:
 
-This project uses Yarn as package manager
-
-```bash
- npm install --global yarn
-```
-
-<!-- Installation -->
-
-### :gear: Installation
-
-Install my-project with npm
-
-```bash
-  yarn install my-project
-  cd my-project
-```
+- [Nodejs](https://nodejs.org)
+- [Pnpm](https://pnpm.io)
 
 <!-- Run Locally -->
-
-### :running: Run Locally
+### 🏃 Run Locally
 
 Clone the project
 
@@ -182,49 +114,49 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd nevel
 ```
 
 Install dependencies
 
 ```bash
-  yarn install
+  **pnpm** install
 ```
 
-Start the server
+Start the local server
 
 ```bash
-  yarn start
+  pnpm run dev
 ```
 
 <!-- Contributing -->
-
-## :wave: Contributing
+## 👋 Contributing
 
 <a href="https://github.com/natainditama/nevel/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=natainditama/nevel" />
-</a>
+</a><br/>
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See [contributing.md](https://github.com/natainditama/nevel/blob/main/.github/CONTRIBUTING.md) for ways to get started.
 
 <!-- Code of Conduct -->
+### 📜 Code of Conduct
 
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/natainditama/nevel/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/natainditama/nevel/blob/main/.github/CODE_OF_CONDUCT.md)
 
 <!-- License -->
+## ⚠️ License
 
-## :warning: License
-
-Distributed under the no License. See LICENSE.txt for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/natainditama/nevel/blob/main/LICENSE) file for details
 
 <!-- Contact -->
+## 🤝 Contact
 
-## :handshake: Contact
+Contact me for inquiries, suggestions, or contributions via the following channels:
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+- [Email](mailto:natainditama.dev@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/natainditama)
+- [GitHub](https://github.com/natainditama)
 
-Project Link: [https://github.com/natainditama/nevel](https://github.com/natainditama/nevel)
+Thank you for your support, interest, feedback, and contributions!
