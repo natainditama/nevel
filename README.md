@@ -1,8 +1,8 @@
 <div align="center">
 
-  <h1>Template</h1>  
+  <h1>Nevel</h1>  
   <p>
-    Flexible github repository template for projects! 
+    Minimalist boilerplate for Next.js with Tailwind CSS 
   </p>
 
 <!-- Badges -->
@@ -41,7 +41,7 @@
 <br />  
 
 <div align="center"> 
-  <img src="https://placehold.co/1280x720?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://github.com/natainditama/nevel/assets/81244669/6dda2a2e-d58f-47e1-92eb-ffafac6830e3" alt="screenshot" />
 </div>
 
 <br />  
@@ -79,10 +79,10 @@ This project includes the following features:
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Background Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+| Primary Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Secondary Color | ![#e4e4e7](https://via.placeholder.com/10/e4e4e7?text=+) #e4e4e7 |
+| Background Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 <!-- Env Variables -->
 ### 🔑 Environment Variables
@@ -120,7 +120,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  **pnpm** install
+  pnpm install
 ```
 
 Start the local server
