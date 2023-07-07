@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^1.2.0
     version: 1.2.0(vercel@30.2.3)(wrangler@3.1.2)
   '@next/bundle-analyzer':
-    specifier: ^13.4.8
-    version: 13.4.8
+    specifier: ^13.4.9
+    version: 13.4.9
   '@types/node':
     specifier: ^20.4.0
     version: 20.4.0
@@ -2200,8 +2200,8 @@ packages:
       - supports-color
     dev: true
 
-  /@next/bundle-analyzer@13.4.8:
-    resolution: {integrity: sha512-4lqwlBquxLmnuGvBGNRZUphIM+yIhzz/ARBNHA0MwzmGpqyZ4wAAZa26aHMPW50pdmwWGOr1fZYiWZM0rqx6bQ==}
+  /@next/bundle-analyzer@13.4.9:
+    resolution: {integrity: sha512-T/nSgXmhAx8Wy2qPGr9P3AcLwlFCMbA7DuYNCm7BdF10Sk74S0bJ1b3ygq+306dBwKRWV5Lj80sYzWzZ5/rwgQ==}
     dependencies:
       webpack-bundle-analyzer: 4.7.0
     transitivePeerDependencies:
@@ -2480,7 +2480,7 @@ packages:
   /@types/hast@2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.0
     dev: true
 
   /@types/http-cache-semantics@4.0.1:
