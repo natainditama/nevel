@@ -1,4 +1,5 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
+const withTM = require("next-transpile-modules");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -12,6 +13,7 @@ const nextConfig = {
 
 const nextPlugins = [
   withBundleAnalyzer({ enabled: process.env.ANALYZE === "true" }),
+  withTM([]),
 ];
 
 module.exports = (_phase, { defaultConfig: _ }) => {
