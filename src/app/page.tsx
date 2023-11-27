@@ -2,8 +2,6 @@
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 
-export const runtime = "edge";
-
 export default function Home() {
   const mainRef = useRef<HTMLDivElement | null>(null);
 

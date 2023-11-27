@@ -54,13 +54,8 @@
 
 This project utilizes the following technologies and tools:
 
-- Programming Languages: Typescript
-- Frameworks: Next.js
-- Libraries: TailwindCSS
-- Databases: -
-- Deployment: Vercel
-- Testing: -
-- Version Control: Git, Github
+- Next.js
+- TailwindCSS
 
 <!-- Features -->
 ### 🌟 Features
