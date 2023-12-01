@@ -62,7 +62,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
     "next-sitemap": "^4.1.8",
-    "next-transpile-modules": "^9.0.0",
+    "next-transpile-modules": "^10.0.1",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.3.0",
