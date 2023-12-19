@@ -10,7 +10,7 @@
   <a href="https://github.com/natainditama/nevel/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/natainditama/nevel" alt="contributors" />
   </a>
-  <a href="">
+  <a href="https://github.com/natainditama/nevel">
     <img src="https://img.shields.io/github/last-commit/natainditama/nevel" alt="last update" />
   </a>
   <a href="https://github.com/natainditama/nevel/network/members">
@@ -48,14 +48,6 @@
 
 <!-- About the Project -->
 ## 📝 About the Project
-
-<!-- TechStack -->
-### 💻 Tech Stack
-
-This project utilizes the following technologies and tools:
-
-- Next.js
-- TailwindCSS
 
 <!-- Features -->
 ### 🌟 Features
@@ -115,13 +107,13 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pnpm install
+  yarn install
 ```
 
 Start the local server
 
 ```bash
-  pnpm run dev
+  yarn run dev
 ```
 
 <!-- Contributing -->
